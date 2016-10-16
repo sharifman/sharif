@@ -32,3 +32,96 @@ különbözo típusú fájlok külön csoportosítva, ésszeruen legyenek felbontva, a kön
 
 ![](2.png)
 
+#2.	Tervezés
+
+##2.1.	Architektúra terv
+
+####2.1.1. Oldaltérkép
+
+**Publikus:**
+* Fooldal
+* Bejelentkezés
+
+**Bejelentkezett:**
+* Fooldal(Tanár,Tanuló,Admin)
+* Tárgyak listázása(Tanuló,Admin)
+   * Tárgy Kiválasztása(Tanuló,Admin)
+        * Tárgy Fekvétele/Leadása(Tanulü)
+        * Tárgy Törlése/Szerkesztése(Admin)
+* Saját Tárgyak listázása(Tanuló,Tanár)
+    * Tárgy kiválasztása(Tanuló,Tanár)
+        * Tárgy létrehozása/törlése/szerkesztése(Tanár)
+        * Tárgy felvélte/leadása(Tanuló)
+* Tanulók/Tanárok Listázása(Admin)
+  * Felhasználó kiválasztása
+    * Felhasználó Szerkesztése/Törlése
+  * Felhasználó létrehozása 
+ 
+######2.1.3. Végpontok
+
+
+* GET/: fooldal
+
+
+* GET/login: bejelentkezo oldal
+* POST/login: bejelentkezo adatok felküldése    
+* GET/logout: kijelentkezo oldal        
+
+
+* GET/targy/lista: tárgylista oldal
+* GET/targy/uj: új tárgy létrehozasa
+* POST/targy/uj: új tárgy felvételéhez szükséges adatok felküldése
+* GET/targy/azon: targy adatok
+* GET/targy/torles=azon: tárgy törlése
+* GET/targy/szerk=azon: tárgy módosítása
+* POST/targy/szerk=azon: tárgy módosítása, adatok felküldése
+
+
+* GET/felh/lista: felhasználólista oldal
+* GET/felh/uj: új felhasználó létrehozása
+* POST/felh/uj: új felhasználó létrehozásához szükséges adatok felküldése
+* GET/felh/azon: felhasználó adatok
+* GET/felh/torles=azon: felhasználó törlése
+* GET/felh/szerk=azon: felhasználó módosítása
+* POST/felh/szerk=azon: felhasználó módosítása, adatok felküldése
+
+
+* GET/terem/lista: teremlista oldal
+* GET/terem/uj: új terem létrehozása
+* POST/terem/uj: új terem létrehozásához szükséges adatok felküldése
+* GET/terem/azon: terem adatok
+* GET/terem/torles=azon: terem törlése
+* GET/terem/szerk=azon: terem módosítása
+* POST/terem/szerk=azon: terem módosítása, adatok felküldése
+
+#####2.2. Felhasználói-felület modell
+
+######2.2.1.Oldalvázlatok:
+**Fooldal**
+![](docs/images/kepernyokep/index.jpg)
+
+**Regisztrációs oldal**
+![](docs/images/kepernyokep/regisztracio.jpg)
+
+**Bejelentkezo oldal**
+![](docs/images/kepernyokep/bejelentkezes.jpg)
+
+**Koktél listaoldal**
+![](docs/images/kepernyokep/list.jpg)
+
+**Új koktél felvétele**
+![](docs/images/kepernyokep/new.jpg)
+
+**Koktél megtekintése**
+![](docs/images/kepernyokep/id.jpg)
+
+**Koktél szerkesztése**
+![](docs/images/kepernyokep/edit.jpg)
+
+ **Adatmodell**
+ 
+ ![](docs/images/kepernyokep/adatmodell.png)
+ 
+ **Adatbázisterv**
+ 
+ ![](docs/images/db-modell.png)
