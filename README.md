@@ -20,7 +20,7 @@ különbözo típusú fájlok külön csoportosítva, ésszeruen legyenek felbontva, a kön
 *	Meglévo Tanár/Tanuló törlése/szerkesztése
 *	Terem létrehozása
 *	Meglévo terem törlése/szerkesztése
-*	
+	
 ![](1.png)
 
 **Meglévo recept szerkesztése:**
