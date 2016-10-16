@@ -130,16 +130,19 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 ![](Fooldal.jpg )
 
 **tárgyak oldal**
+
 ![](targyak.jpg )
 
 **Bejelentkezo oldal**
+
 ![](bejelentkezes.jpg )
 
 **Tárgy oldal**
+
 ![](targy.jpg )
 
  **Adatmodell és Adatbázisterv**
  
- ![](3.png)
+ ![](5.png)
  
 
