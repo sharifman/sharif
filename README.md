@@ -73,7 +73,7 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 * Fooldal(Tanár,Tanuló,Admin)
 * Tárgyak listázása(Tanuló,Admin)
    * Tárgy Kiválasztása(Tanuló,Admin)
-        * Tárgy Fekvétele/Leadása(Tanulü)
+        * Tárgy Felvétele/Leadása(Tanulü)
         * Tárgy Törlése/Szerkesztése(Admin)
 * Saját Tárgyak listázása(Tanuló,Tanár)
     * Tárgy kiválasztása(Tanuló,Tanár)
