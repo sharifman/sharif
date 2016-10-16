@@ -48,11 +48,5 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 *	Terem létrehozása
 *	Meglévo terem törlése/szerkesztése
 
+![](1.png)
 
-
-Egyszer? példa folyamat:
-Tárgy felvétele tanulóként:
-Bejelentkezés tanulóként
-Tárgyak listázása
-Tárgy kiválasztása
-Tárgy felvétele
