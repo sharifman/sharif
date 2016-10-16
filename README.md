@@ -1,9 +1,8 @@
 # Dokumentáció
-
-##Neptun
-Naddaf Sharif Alexander
-GU5I9D
-
+## Neptun    
+Naddaf Sharif Alexander     
+GU5I9D  
+#1.Köetelményanalízis
 
 Célkitûzés:
 Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.
