@@ -2,24 +2,23 @@
 ## Neptun    
 Naddaf Sharif Alexander     
 GU5I9D  
-#1.Köetelményanalízis
-
-Célkitûzés:
-Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.
-
-Funkcionális követelmények:
-Regisztrációra
-Bejelentkezés
-Tárgyak listázása
-Csak bejelentkezett felhasználók által elérhet? funkciók :
-Tanár számára:
-Új tárgy kiirása
-Saját tárgy szerkesztése/törlése
-Diák:
-Tárgyak felvétele/leadása.
-Admin:
-Diák/Tanár felhasználó létrehozása.
-Termek hozzáadása/törlése.
+#1.Követelményanalízis  
+##1.1. Célkituzés, projektindító dokumentum     
+Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.       
+###Funkcionális követelmények:  
+* Bejelentkezés
+* Csak bejelentkezett felhasználók által elérheto funkciók:      
+    - Tanárok számára:    
+    -- Saját tárgy lérehozása   
+    -- Saját tárgy törlése  
+    -- Saját tárgy szerkesztése        
+    - Diákok számára:    
+    -- Tárgy felvétele  
+    -- Tárgy leadása     
+    - Admin számára     
+    -- Tanár felhasználó létrehozása/törlése
+    -- Diák felhasználó létrehozása/törlése
+    -- Terem létrehozása/törlése
 
 Nem funkcionális követelmények:
 Könny? áttekinthet?ség: Színekkel típus szerint csoportosítás
