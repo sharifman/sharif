@@ -88,13 +88,9 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 
 
 * GET/: fooldal
-
-
 * GET/login: bejelentkezo oldal
 * POST/login: bejelentkezo adatok felküldése
 * GET/logout: kijelentkezo oldal
-
-
 * GET/targy/lista: tárgylista oldal
 * GET/targy/uj: új tárgy létrehozasa
 * POST/targy/uj: új tárgy felvételéhez szükséges adatok felküldése
@@ -102,8 +98,6 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 * GET/targy/torles=azon: tárgy törlése
 * GET/targy/szerk=azon: tárgy módosítása
 * POST/targy/szerk=azon: tárgy módosítása, adatok felküldése
-
-
 * GET/felh/lista: felhasználólista oldal
 * GET/felh/uj: új felhasználó létrehozása
 * POST/felh/uj: új felhasználó létrehozásához szükséges adatok felküldése
@@ -111,8 +105,6 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 * GET/felh/torles=azon: felhasználó törlése
 * GET/felh/szerk=azon: felhasználó módosítása
 * POST/felh/szerk=azon: felhasználó módosítása, adatok felküldése
-
-
 * GET/terem/lista: teremlista oldal
 * GET/terem/uj: új terem létrehozása
 * POST/terem/uj: új terem létrehozásához szükséges adatok felküldése
