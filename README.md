@@ -5,7 +5,7 @@ GU5I9D
 #1.Követelményanalízis  
 ##1.1. Célkituzés, projektindító dokumentum     
 Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.       
-###Funkcionális követelmények:  
+####Funkcionális követelmények:  
 * Bejelentkezés
 * Csak bejelentkezett felhasználók által elérheto funkciók:      
     - Tanárok számára:    
