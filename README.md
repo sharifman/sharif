@@ -5,7 +5,8 @@ GU5I9D
 #1.Követelményanalízis  
 ##1.1. Célkituzés, projektindító dokumentum     
 Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.       
-####Funkcionális követelmények:  
+
+######Funkcionális követelmények:  
 * Bejelentkezés
 * Csak bejelentkezett felhasználók által elérheto funkciók:      
     - Tanárok számára:    
@@ -16,34 +17,38 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
     -- Tárgy felvétele  
     -- Tárgy leadása     
     - Admin számára     
-    -- Tanár felhasználó létrehozása/törlése
-    -- Diák felhasználó létrehozása/törlése
-    -- Terem létrehozása/törlése
+    -- Tanár felhasználó létrehozása/törlése    
+    -- Diák felhasználó létrehozása/törlése     
+    -- Terem létrehozása/törlése        
 
-Nem funkcionális követelmények:
-Könny? áttekinthet?ség: Színekkel típus szerint csoportosítás
-Használhatóság: Könny? áttekinthet?ség, ésszer? elrendezés, könnyen kezelhet?ség
-Megbízhatóság: jelszóval védett funkciók, és a jelszavak védelme a háttérben. Hibásan bevitt adatok esetén a program jól láthatóan jelezzen a felhasználónak, és emelje ki a hibás beviteli mez?ket. A jól bevitt adatok maradjanak az ?rlapban.
-Karbantarthatóság: könnyen lehessen b?víteni, a különböz? típusú fájlok külön csoportosítva, ésszer?en legyenek felbontva, a könnyebb fejleszthet?ség miatt
+######Nem funkcionális követelmények:
+*	**Könnyu áttekinthetoség:** Színekkel típus szerint csoportosítás
+*	**Használhatóság:** Könnyu áttekinthetoség, ésszeru elrendezés, könnyen kezelhetoség
+*	**Megbízhatóság:** jelszóval védett funkciók, és a jelszavak védelme a háttérben. Hibásan bevitt adatok esetén a program jól láthatóan jelezzen a felhasználónak, és emelje ki a hibás beviteli mezoket. A jól bevitt adatok maradjanak az urlapban.
+*	**Karbantarthatóság:** könnyen lehessen bovíteni, a különbözo típusú fájlok külön csoportosítva, ésszeruen legyenek felbontva, a könnyebb fejleszthetoség miatt
 
-Használatieset-modell, funkcionális követelmények:
-Vendég: Csak a publikus oldalakat éri el
-F?oldal
-Bejelentkezés
-Regisztráció
-Tárgyak megtekintése
-Bejelentkezett felhasználó: A publikus oldalak elérésén felül egyéb funkciókhoz is hozzáfér:
-Tanár:
-Új tárgy kiírása
-Saját meglév? tárgy törlése/szerkesztése/listázása
-Saját tárgy látogatóinak megtekintése
-Diák:
-Tárgyak megtekintése
-Felvett tárgyak megtekintése
-Felvett tárgyak leadása
-Admin:
-Diák/Tanár felhasználó létrehozása.
-Termek hozzáadása/törlése
+
+##1.2.	Használatieset-modell, funkcionális követelmények
+
+**Vendég**: Csak a publikus oldalakat éri el
+*	Fooldal
+*	Bejelentkezés
+
+**Bejelentkezett Tanár**:       
+*	Új Tárgy létrehozása
+*	Saját Tárgy törlése/szerkesztése       
+
+**Bejelentkezett Tanuló**:     
+*	Tárgy felvétele
+*	Felvett tárgy leadása  
+
+**Bejelentkezett Admin**:  
+*	Tanár/Tanuló felhasználó létrehozása
+*	Meglévo Tanár/Tanuló törlése/szerkesztése
+*	Terem létrehozása
+*	Meglévo terem törlése/szerkesztése
+
+
 
 Egyszer? példa folyamat:
 Tárgy felvétele tanulóként:
