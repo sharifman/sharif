@@ -143,6 +143,6 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 
  **Adatmodell és Adatbázisterv**
  
- ![](5.png)
+ ![](6.png)
  
 
