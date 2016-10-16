@@ -4,9 +4,8 @@
 Naddaf Sharif Alexander
 GU5I9D
 
-Mini NEPTUN
 
-Célkit?zés:
+Célkitûzés:
 Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.
 
 Funkcionális követelmények:
