@@ -91,8 +91,8 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 
 
 * GET/login: bejelentkezo oldal
-* POST/login: bejelentkezo adatok felküldése    
-* GET/logout: kijelentkezo oldal        
+* POST/login: bejelentkezo adatok felküldése
+* GET/logout: kijelentkezo oldal
 
 
 * GET/targy/lista: tárgylista oldal
