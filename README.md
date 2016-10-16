@@ -125,25 +125,16 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 
 ######2.2.1.Oldalvázlatok:
 **Fooldal**
-![](docs/images/kepernyokep/index.jpg)
+![](Fooldal.jpg )
 
-**Regisztrációs oldal**
-![](docs/images/kepernyokep/regisztracio.jpg)
+**tárgyak oldal**
+![](targyak.jpg )
 
 **Bejelentkezo oldal**
-![](docs/images/kepernyokep/bejelentkezes.jpg)
+![](bejelentkezes.jpg )
 
 **Koktél listaoldal**
-![](docs/images/kepernyokep/list.jpg)
-
-**Új koktél felvétele**
-![](docs/images/kepernyokep/new.jpg)
-
-**Koktél megtekintése**
-![](docs/images/kepernyokep/id.jpg)
-
-**Koktél szerkesztése**
-![](docs/images/kepernyokep/edit.jpg)
+![](targy.jpg )
 
  **Adatmodell**
  
@@ -152,3 +143,4 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
  **Adatbázisterv**
  
  ![](docs/images/db-modell.png)
+
