@@ -4,7 +4,7 @@ Naddaf Sharif Alexander
 GU5I9D  
 #1.Követelményanalízis  
 ##1.1. Célkituzés, projektindító dokumentum     
-Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tárgyakat írhatnak ki.       
+Cél egy olyan weboldal készítése, ahol a tanulók tárgyakat tudnak felvenni és leadni, a tanárok új tárgyakat írhatnak ki és saját tárgyaikat szerkeszhetik, ezt mind az admin felügyeletével.       
 
 ######Funkcionális követelmények:  
 * Bejelentkezés
