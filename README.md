@@ -126,6 +126,7 @@ Olyan weboldal készítése, ahol a tanulók tárgyakat vehetnek fel és a tanár új tá
 ######2.2.1.Oldalvázlatok:
 
 **Fooldal**
+
 ![](Fooldal.jpg )
 
 **tárgyak oldal**
